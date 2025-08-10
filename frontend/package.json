@@ -1,0 +1,53 @@
+{
+  "name": "quasar-vite-project",
+  "version": "1.0.0",
+  "description": "A Quasar project with Vite build tool",
+  "productName": "Quasar Vite App",
+  "author": "Developer",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "clean": "quasar clean",
+    "test": "vitest",
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.12",
+    "axios": "^1.6.7",
+    "pinia": "^2.1.7",
+    "quasar": "^2.16.6",
+    "vue": "^3.4.18",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^2.0.0-beta.12",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.20.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vitest": "^1.2.2"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">=18.12.0",
+    "npm": ">= 8.12.0 && < 11.0.0",
+    "yarn": ">= 1.21.1"
+  }
+}
